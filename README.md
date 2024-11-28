@@ -5,14 +5,17 @@ Query OpenAI models directly from Claude using MCP protocol.
 ![preview](preview.png)
 
 ## Setup
+
+Add to `claude_desktop_config.json`:
+
 ```json
 {
   "mcpServers": {
     "openai-server": {
       "command": "python",
-      "args": ["-m", "mcp_server_openai.server"],
+      "args": ["-m", "src.mcp_server_openai.server"],
       "env": {
-        "PYTHONPATH": "C:/path/to/your/mcp-server-openai/src",
+        "PYTHONPATH": "C:/path/to/your/mcp-server-openai",
         "OPENAI_API_KEY": "your-key-here"
       }
     }
