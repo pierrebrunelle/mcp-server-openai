@@ -4,6 +4,8 @@ Query OpenAI models directly from Claude using MCP protocol.
 
 ![preview](preview.png)
 
+<a href="https://glama.ai/mcp/servers/f7pt2hkdug"><img width="380" height="200" src="https://glama.ai/mcp/servers/f7pt2hkdug/badge" alt="OpenAI Server MCP server" /></a>
+
 ## Setup
 
 Add to `claude_desktop_config.json`:
